@@ -1,0 +1,3 @@
+||csftr.com^
+||ap-device-pro.csftr.com^
+||api.csftr.com^
