@@ -3,25 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filter Rules</title>
+    <title>Network Protection</title>
     <style>
-        body {
+        * {
             margin: 0;
-            padding: 20px;
-            font-family: 'Courier New', monospace;
-            background: #ffffff;
-            color: #000000;
+            padding: 0;
+            box-sizing: border-box;
         }
-        pre {
-            margin: 0;
-            white-space: pre-wrap;
-            word-wrap: break-word;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 50px;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        p {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .note {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #6c757d;
         }
     </style>
 </head>
 <body>
-<pre>||csftr.com^
-||ap-device-pro.csftr.com^
-||api.csftr.com^</pre>
+    <div class="container">
+        <div class="icon">🛡️</div>
+        <h1>Network Protection</h1>
+        <p>Advanced DNS filtering service for enhanced security and privacy.</p>
+        
+        <div class="note">
+            <strong>For Authorized Users Only</strong><br>
+            If you have been provided with access credentials, please configure your filtering application accordingly.
+        </div>
+    </div>
 </body>
 </html>
